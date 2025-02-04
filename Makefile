@@ -11,7 +11,7 @@ all: $(NAME)
 bonus: all
 
 $(NAME): $(OBJ)
-	@$(CC) $(FLAGS) $(OBJ) $(LIB_PATH) -o $(NAME)
+	@$(CC) $(FLAGS) $(OBJ) -o $(NAME)
 
 %.o: %.c
 	@$(CC) $(FLAGS) -c $< -o $@
