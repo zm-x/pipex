@@ -1,6 +1,6 @@
 CC = cc
 NAME = pipex
-CFLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror
 SRC = pipex_bonus.c ft_split_bonus.c get_next_line_utils.c get_next_line.c \
 		helper_function_bonus.c helper_function2_bonus.c printf.c helper_function3_bonus.c
 
